@@ -5,12 +5,14 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 import java.util.Collections;
 
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 class ObjectSizeCalculatorTests {
 
   private ObjectSizeCalculator calculator;
 
+  @BeforeEach
   void setUp() {
     this.calculator = ObjectSizeCalculator.getInstance();
   }
