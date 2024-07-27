@@ -9,7 +9,7 @@
     <version>1.0.0-SNAPSHOT</version>
   </parent>
   <artifactId>object-size-agent</artifactId>
-  <name>setSecurityManager Interceptor Agent</name>
+  <name>object-size Agent</name>
 
   <dependencies>
     <dependency>

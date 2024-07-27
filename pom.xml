@@ -6,14 +6,14 @@
   <artifactId>object-size</artifactId>
   <version>1.0.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <inceptionYear>2023</inceptionYear>
-  <url>https://github.com/marschall/setsecuritymanager-interceptor</url>
-  <name>setSecurityManager Interceptor</name>
-  <description>A tool for intercepting System.setSecurityManager</description>
+  <inceptionYear>2024</inceptionYear>
+  <url>https://github.com/marschall/object-size</url>
+  <name>object-size parent</name>
+  <description>A tool compute object graph sizes in Java</description>
 
   <scm>
-    <connection>scm:git:git@github.com:marschall/setsecuritymanager-interceptor.git</connection>
-    <developerConnection>scm:git:git@github.com:marschall/setsecuritymanager-interceptor.git</developerConnection>
+    <connection>scm:git:git@github.com:marschall/object-sizegit</connection>
+    <developerConnection>scm:git:git@github.com:marschall/object-size.git</developerConnection>
     <url>${project.url}</url>
     <tag>HEAD</tag>
   </scm>
@@ -27,7 +27,7 @@
   </licenses>
 
   <issueManagement>
-    <url>https://github.com/marschall/setsecuritymanager-interceptor/issues</url>
+    <url>https://github.com/marschall/object-size/issues</url>
     <system>GitHub Issues</system>
   </issueManagement>
 
@@ -133,27 +133,27 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>3.3.1</version>
+          <version>3.4.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>3.11.0</version>
+          <version>3.13.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>3.1.1</version>
+          <version>3.1.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-gpg-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.4</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
-          <version>3.1.1</version>
+          <version>3.1.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.4.2</version>
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
@@ -166,7 +166,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-release-plugin</artifactId>
-          <version>3.0.1</version>
+          <version>3.1.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
@@ -174,7 +174,7 @@
         </plugin>
         <plugin>
           <artifactId>maven-scm-plugin</artifactId>
-          <version>2.0.1</version>
+          <version>2.1.0</version>
         </plugin>
         <plugin>
           <artifactId>maven-shade-plugin</artifactId>
@@ -186,11 +186,11 @@
         </plugin>
         <plugin>
           <artifactId>maven-source-plugin</artifactId>
-          <version>3.3.0</version>
+          <version>3.3.1</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>3.1.2</version>
+          <version>3.3.1</version>
         </plugin>
       </plugins>
     </pluginManagement>
