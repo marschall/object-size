@@ -4,7 +4,7 @@
 
   <groupId>com.github.marschall</groupId>
   <artifactId>object-size</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1-SNAPSHOT</version>
   <inceptionYear>2024</inceptionYear>
   <url>https://github.com/marschall/object-size</url>
   <name>object-size</name>
@@ -14,7 +14,7 @@
     <connection>scm:git:git@github.com:marschall/object-sizegit</connection>
     <developerConnection>scm:git:git@github.com:marschall/object-size.git</developerConnection>
     <url>${project.url}</url>
-    <tag>1.0.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <licenses>
@@ -312,7 +312,7 @@
   </profiles>
 
   <properties>
-    <project.build.outputTimestamp>2024-07-28T14:15:05Z</project.build.outputTimestamp>
+    <project.build.outputTimestamp>2024-07-28T14:15:23Z</project.build.outputTimestamp>
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
   </properties>
