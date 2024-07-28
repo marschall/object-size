@@ -19,6 +19,6 @@ The native agent has to be loaded using a JVM option.
 
 Then it can be used from Java
 
-```
+```java
 ObjectSizeCalculator.getInstance().getObjectSize(myObject);
 ```
